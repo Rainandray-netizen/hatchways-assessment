@@ -1,0 +1,117 @@
+html{
+  overflow: hidden;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color:black;
+  background: lightgray;
+  font-size:20px;
+}
+
+img{
+  margin: 20px;
+  border-radius: 50%;
+  border: lightgray 2px solid;
+  width: 8vw;
+  height: 8vw;
+}
+
+.centerbox-container{
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerbox::-webkit-scrollbar{
+  display:none;
+  background-color: white;
+}
+
+.centerbox{
+  width: 60vw;
+  height: 60vh;
+  overflow:scroll;
+}
+
+.centerbox-intermediary{
+  background-color: white;
+  box-shadow:1px 1px 10px gray;
+  border-radius: 10px;
+
+}
+
+article{
+  width: 100%;
+}
+
+.card-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+hr{
+  margin: 0;
+  padding: 0;
+  border: .5px solid lightgray
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  margin:5px 0px 5px 0px;
+  color:black;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 3px 0px 3px 30px;
+}
+
+#name-input{
+  border: none;
+  border-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+#tag-input{
+  border: none;
+  border-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+.expand-button-container{
+  display:flex;
+  justify-content: right;
+  padding:10px 20px;
+}
+
+.card-info{
+  display: flex;
+  justify-content: left;
+}
+
+.gradelist{
+  margin:20px 0px;
+}
+
+.tag{
+  padding:10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.tags-container{
+  display: flex;
+  padding: 20px;
+  margin:20px 0px;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
